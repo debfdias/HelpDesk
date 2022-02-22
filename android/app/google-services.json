@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "840527078089",
+    "project_id": "helpdesk-ec640",
+    "storage_bucket": "helpdesk-ec640.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840527078089:android:6f8d8aaf0020b3d1e5e318",
+        "android_client_info": {
+          "package_name": "com.helpdesk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840527078089-2mg33g38qi7qjnfho54c3ek2qomkp3rm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHj6_mwGs94DNpUNMvd5u9cykLnXqjAIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "840527078089-2mg33g38qi7qjnfho54c3ek2qomkp3rm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
