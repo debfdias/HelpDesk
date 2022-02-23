@@ -7,6 +7,7 @@
 ## 💻 Project
 
 HelpDesk is a real time application to manage infra structure requests.It was built using React Native, Expo (bare flow) and Firestore as backend.
+*** This project is based on a lecture (using Firebase as a backend) from Rocketseat, ministered by Rodrigo Gonçalves.
 
 ## :hammer_and_wrench: Tools and Architecture 
 
