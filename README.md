@@ -28,6 +28,22 @@ yarn android
 
 ** Create a Firebase project and place the google-services.json inside your android/app folder.
 
+## :gear: Configure Firestore 
+
+Go to android folder, open build.gradle file and add:
+```
+
+apply plugin: "com.google.gms.google-services"
+
+```
+
+Now go to android/app folder, open again a build.gradle file and add after "dependencies":
+```
+
+classpath("com.google.gms:google-services:4.3.10")
+
+```
+
 Run the application in your simulator.
 
 ## 📝 License
