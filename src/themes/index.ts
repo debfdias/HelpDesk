@@ -1,15 +1,18 @@
 export default {
   COLORS: {
-    BACKGROUND: '#F3F2F8',
+    BACKGROUND: '#282a36',
     
-    PRIMARY: '#6100FF',
-    SECONDARY: '#FF366A',
+    PRIMARY: '#2696ff',
+    SECONDARY: '#ff970f',
+    TERCIARY: '#4a4d5e',
+    QUARTERNARY: '#20c950',
     
-    TEXT: '#383B43',
+    TEXT: '#ebedf5',
     SUBTEXT: '#8D919E',
     
     WHITE: '#FFFFFF',
-    BORDER: '#C5CADA'
+    RED: '#fa0a3a',
+    BORDER: '#6b6e82'
   },
   
   FONTS: {

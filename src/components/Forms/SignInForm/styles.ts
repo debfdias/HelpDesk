@@ -14,5 +14,5 @@ export const Footer = styled.View`
   flex-direction: row;
   justify-content: space-between;
   align-items: center; 
-  margin-top: 50px; 
+  margin-top: 36px; 
 `;

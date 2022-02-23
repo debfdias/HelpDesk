@@ -18,7 +18,6 @@ import {
 export type OrderProps = OrderStyleProps & {
   id: string;
   patrimony: string;
-  equipment: string;
   description: string;
 }
 
@@ -39,7 +38,7 @@ export function OrderCard({ data }: Props) {
           <MaterialIcons
             name={data.status === "open" ? "hourglass-empty" : "check-circle"}
             size={24}
-            color={data.status === "open" ? theme.COLORS.SECONDARY : theme.COLORS.PRIMARY}
+            color={data.status === "open" ? theme.COLORS.SECONDARY : theme.COLORS.QUARTERNARY}
           />
         </Header>
 
@@ -47,7 +46,7 @@ export function OrderCard({ data }: Props) {
           <Info>
             <MaterialIcons name="schedule" size={16} color={theme.COLORS.SUBTEXT} />
             <Label>
-              {data.equipment}
+              20/02/2022 às 18h30
             </Label>
           </Info>
 

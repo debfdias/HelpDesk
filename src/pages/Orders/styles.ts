@@ -20,9 +20,10 @@ export const Title = styled.Text`
 `;
 
 export const Counter = styled.Text`
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: bold;
   font-family: ${({ theme }) => theme.FONTS.TEXT};
-  color: ${({ theme }) => theme.COLORS.SUBTEXT};
+  color: ${({ theme }) => theme.COLORS.WHITE};
   margin-bottom: 12px;
 `;
 

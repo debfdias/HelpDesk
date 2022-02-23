@@ -6,7 +6,7 @@ export const Container = styled.View`
 `;
 
 export const Title = styled.Text`
-  font-size: 14px;
+  font-size: 15px;
   font-family: ${({ theme }) => theme.FONTS.TEXT};
   color: ${({ theme }) => theme.COLORS.TEXT};
   text-align: center;
@@ -19,6 +19,6 @@ export const Options = styled.View`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 6px;
   overflow: hidden;
 `;

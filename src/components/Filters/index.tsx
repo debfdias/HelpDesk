@@ -24,7 +24,7 @@ export function Filters({ onFilter }: Props) {
 
         <Filter
           title="Encerrados"
-          backgroundColor={theme.COLORS.PRIMARY}
+          backgroundColor={theme.COLORS.QUARTERNARY}
           onPress={() => onFilter('closed')}
         />
       </Options>

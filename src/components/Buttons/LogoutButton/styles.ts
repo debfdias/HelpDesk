@@ -6,6 +6,6 @@ export const Container = styled(RectButton)`
   height: 50px;
   justify-content: center;
   align-items: center;
-  border-radius: 12px;
-  background-color: ${({ theme }) => theme.COLORS.PRIMARY};
+  border-radius: 6px;
+  background-color: ${({ theme }) => theme.COLORS.RED};
 `;

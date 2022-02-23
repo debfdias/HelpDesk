@@ -7,7 +7,7 @@ export const Form = styled.View`
 export const Title = styled.Text`
   font-size: 24px;
   font-family: ${({ theme }) => theme.FONTS.TITLE};
-  color: ${({ theme }) => theme.COLORS.TEXT};
+  color: ${({ theme }) => theme.COLORS.TERCIARY};
   margin-bottom: 24px;
   align-self: center;
 `;

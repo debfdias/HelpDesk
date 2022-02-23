@@ -24,13 +24,22 @@ export function SignInForm() {
   }
 
   function handleForgotPassword() {
-    auth()
-    .sendPasswordResetEmail(email)
-    .then(() => Alert.alert("Redefinir senha", "Email enviado!"))
-    .catch((error) => {
-      setIsLoading(false);
-      console.log(error);
-    })
+
+    if(email)
+    {
+      auth()
+      .sendPasswordResetEmail(email)
+      .then(() => Alert.alert("Redefinir senha", "E-mail enviado!"))
+      .catch((error) => {
+        setIsLoading(false);
+        console.log(error);
+      })
+    }
+    else
+    {
+      Alert.alert("Redefinir senha", "Informe seu e-mail de cadastro.")
+    }
+    
 
   }
 
@@ -43,7 +52,7 @@ export function SignInForm() {
 
       <Footer>
         <FooterButton title="Criar conta" icon="person-add" onPress={() => navigation.navigate('signUp')} />
-        <FooterButton title="Esqueci senha" icon="email" onPress={handleForgotPassword} />
+        <FooterButton title="Esqueci a senha" icon="email" onPress={handleForgotPassword} />
       </Footer>
     </Form>
   );

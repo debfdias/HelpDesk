@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { BottomSheetView, BottomSheetModal, BottomSheetModalProvider } from '@gorhom/bottom-sheet';
+import { BottomSheetView, BottomSheetModal, BottomSheetModalProvider, BottomSheetBackgroundProps  } from '@gorhom/bottom-sheet';
 
 import { NormalButton } from '@components/Buttons/NormalButton';
 import { NewOrderForm } from '@components/Forms/NewOrderForm';
@@ -20,8 +20,8 @@ export function NewOrder() {
       <BottomSheetModalProvider>
         <BottomSheetModal
           ref={bottomSheetRef}
-          snapPoints={['50%']}
-          style={{ padding: 24 }}
+          snapPoints={['55%']}
+          style={{ padding: 20 }}
           enablePanDownToClose={true}
           backdropComponent={() => <Background />}
         >
