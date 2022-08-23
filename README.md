@@ -47,6 +47,13 @@ classpath("com.google.gms:google-services:4.3.10")
 
 Run the application in your simulator.
 
+** Don't forget to install JDK.
+<br>
+** Add the JDK env in your system's path. Or create a local.properties file inside android the folder and write your sdk path:
+
+```
+sdk.dir = /Users/YOUR_USER/Library/Android/sdk
+```
 ## 📝 License
 
 Under MIT license.
